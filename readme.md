@@ -11,7 +11,7 @@
 ```java
 
 
-class Example extends Thread {
+class A extends Thread {
     public void run() 
     {
         System.out.println("New Thread is started.."); 
@@ -21,7 +21,7 @@ class Example extends Thread {
 
 class Main {
     public static void main(String args[]){
-        Example t1 = new Example();
+        A t1 = new A();
         t1.start();
         System.out.println("Primary Thread.");
 
